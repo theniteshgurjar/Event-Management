@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "postinstall": "prisma generate",
+    "db:start": "powershell -Command \"& 'D:\\pgsql\\bin\\pg_ctl.exe' start -D 'D:\\pgsql\\data' -l 'D:\\pgsql\\data\\server.log'\"",
+    "db:stop": "powershell -Command \"& 'D:\\pgsql\\bin\\pg_ctl.exe' stop -D 'D:\\pgsql\\data'\"",
+    "db:status": "powershell -Command \"& 'D:\\pgsql\\bin\\pg_ctl.exe' status -D 'D:\\pgsql\\data'\"",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "seed": "node src/seed.js && node src/seed_users.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.3.0",
+    "@prisma/client": "^7.3.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "google-auth-library": "^10.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.17.2",
+    "prisma": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10"
+  }
+}
