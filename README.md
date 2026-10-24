@@ -12,7 +12,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 **Comprehensive Technical Architecture, Institutional Workflows & Engineering Documentation**  
-*Engineered for the Office of Dean Student Welfare (DSW), Madhav Institute of Technology & Science (MITS), Gwalior.*
 
 [Features](#-key-features--capabilities) • [Architecture](#-functional-architecture--page-routes) • [RBAC](#-role-based-access-control-rbac) • [API Docs](#-rest-api-reference) • [Database](#-database-schema--erd) • [Setup](#-local-installation--setup) • [Demo Accounts](#-quick-access-demo-credentials)
 
@@ -519,8 +518,3 @@ Event-Management/
 
 ---
 
-## 📜 License & Credits
-
-Developed for the **Office of Dean Student Welfare (DSW)** at **Madhav Institute of Technology & Science (MITS), Gwalior**.
-
-Distributed under the **MIT License**. See `LICENSE` for details.
